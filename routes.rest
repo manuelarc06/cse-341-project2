@@ -1,0 +1,25 @@
+### Home
+GET http://localhost:3001/
+
+###
+
+### Get all pets
+GET http://localhost:3001/pets
+
+###
+
+### Get single pet
+GET http://localhost:3001/pets/6a5ae639308a72788f9b39b0
+
+### Home (Render)
+https://project2-zg50.onrender.com/
+
+###
+
+### Get all contacts (Render)
+GET https://project2-zg50.onrender.com/pets
+
+###
+
+### Get single contact (Render)
+GET https://project2-zg50.onrender.com/pets/6a5ae639308a72788f9b39b0
