@@ -5,7 +5,7 @@
     "description": "Pets Api",
     "version": "1.0.0"
   },
-  "host": "https://project2-zg50.onrender.com",
+  "host": "project2-zg50.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
