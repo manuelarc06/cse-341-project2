@@ -37,7 +37,6 @@ const veterinarianValidationRules = () => {
             .withMessage('Phone is required'),
 
         body('yearsExperience')
-            .trim()
             .isInt({ min: 0 })
             .withMessage('Years of experience must be a positive integer'),
 

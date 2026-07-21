@@ -68,7 +68,7 @@ const createVeterinarian = async (req, res) => {
             licenseNumber: req.body.licenseNumber,
             email: req.body.email,
             phone: req.body.phone,
-            yearsExperience: req.body.yearsExperience,
+            yearsExperience: Number(req.body.yearsExperience),
             clinic: req.body.clinic
         };
 
@@ -117,7 +117,7 @@ const updateVeterinarian = async (req, res) => {
             licenseNumber: req.body.licenseNumber,
             email: req.body.email,
             phone: req.body.phone,
-            yearsExperience: req.body.yearsExperience,
+            yearsExperience: Number(req.body.yearsExperience),
             clinic: req.body.clinic
         };
 

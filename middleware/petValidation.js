@@ -20,7 +20,6 @@ const petValidationRules = () => {
             .withMessage('Breed is required'),
 
         body('age')
-            .trim()
             .isInt({ min: 0 })
             .withMessage('Age must be a positive integer'),
 
@@ -35,7 +34,6 @@ const petValidationRules = () => {
             .withMessage('Color is required'),
 
         body('weight')
-            .trim()
             .isFloat({ min: 0 })
             .withMessage('Weight must be a positive number')
     ];
