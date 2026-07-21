@@ -11,15 +11,33 @@ GET http://localhost:3001/pets
 ### Get single pet
 GET http://localhost:3001/pets/6a5ae639308a72788f9b39b0
 
+###
+
+### Get all veterinarians 
+GET http://localhost:3001/veterinarians
+
+###
+
+### Get single veterinarian
+GET http://localhost:3001/veterinarians/6a5be793e84d6d6f5b9b29d2
+
 ### Home (Render)
 https://project2-zg50.onrender.com/
 
 ###
 
-### Get all contacts (Render)
+### Get all pets (Render)
 GET https://project2-zg50.onrender.com/pets
 
 ###
 
-### Get single contact (Render)
+### Get single pet (Render)
 GET https://project2-zg50.onrender.com/pets/6a5ae639308a72788f9b39b0
+
+### Get all veterinarians (Render)
+GET https://project2-zg50.onrender.com/veterinarians
+
+###
+
+### Get single veterinarian (Render)
+GET https://project2-zg50.onrender.com/veterinarians
