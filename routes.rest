@@ -40,4 +40,4 @@ GET https://project2-zg50.onrender.com/veterinarians
 ###
 
 ### Get single veterinarian (Render)
-GET https://project2-zg50.onrender.com/veterinarians
+GET https://project2-zg50.onrender.com/veterinarians/6a5be793e84d6d6f5b9b29d2
