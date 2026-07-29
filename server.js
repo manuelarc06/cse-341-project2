@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const dns = require("node:dns/promises");
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
@@ -65,7 +67,13 @@ passport.deserializeUser((user, done) => {
     done(null, user);
 });
 
-app.get('/', (req, res) => { res.send(req.session.user !== undefined ? `Logged in as ${req.session.user.displayName}` : "Logged Out") });
+app.get('/', (req, res) => {
+    res.send(
+        req.isAuthenticated()
+            ? `Logged in as ${req.user.displayName}`
+            : "Logged Out"
+    );
+});
 
 app.get('/github/callback', passport.authenticate('github', {
     failureRedirect: '/api-docs'}),
