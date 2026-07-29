@@ -3,7 +3,7 @@ GET http://localhost:3001/
 
 ###
 
-### Get all pets
+### Get all the pets
 GET http://localhost:3001/pets
 
 ###
