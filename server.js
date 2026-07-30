@@ -70,7 +70,7 @@ passport.deserializeUser((user, done) => {
 app.get('/', (req, res) => {
     res.send(
         req.isAuthenticated()
-            ? `Logged in as ${req.user.displayName}`
+            ? `Logged in as ${req.user.username}`
             : "Logged Out"
     );
 });
